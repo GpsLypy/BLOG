@@ -3,7 +3,9 @@
 ### 作者介绍
 
 **作者介绍:**  林科大小菜鸡  
-[Github地址](https://github.com/GpsLypy)。
+
+[Github地址](https://github.com/GpsLypy)
+
 [CSDN博客地址](https://blog.csdn.net/weixin_46269257?spm=1001.2014.3001.5343)
 
 近期会重开微信公众号,并且每周都会在公众号更新一些自己总结的资料。
