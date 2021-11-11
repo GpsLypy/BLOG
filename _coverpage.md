@@ -5,7 +5,7 @@
 
 [常用资源](https://shimo.im/docs/MuiACIg1HlYfVxrj/)
 [GitHub](https://github.com/GpsLypy/gpslypy.github.io.git)
-[开始阅读](#gpslypy.github.io)
+[开始阅读](#gpslypy.github.io.git)
 
 
 
