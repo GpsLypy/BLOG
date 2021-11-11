@@ -1,7 +1,7 @@
 # Knowledge-of-notes
 
 ### 作者介绍
-林科大小菜鸡一枚,不值一提。
+林科大小菜鸡,还经常见不到女朋友。
 
 [Github地址](https://github.com/GpsLypy)
 
