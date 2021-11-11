@@ -1,8 +1,7 @@
 # Knowledge-of-notes
 
 ### 作者介绍
-
-**作者介绍:**  林科大小菜鸡  
+林科大小菜鸡一枚,不值一提。
 
 [Github地址](https://github.com/GpsLypy)
 
