@@ -1,7 +1,7 @@
 # Knowledge-of-notes
 
 ### 作者介绍
-林科大小菜鸡,但有个怪可爱的小鹏友。
+林科大小菜鸡,但有个怪可爱的小鹏友❤。
 
 [Github地址](https://github.com/GpsLypy)
 
