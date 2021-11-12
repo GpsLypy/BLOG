@@ -11,7 +11,7 @@
 * 计算机基础
 
   * [计算机网络](./docs/Knowledge/计算机网络/c-1计算机网络.md)
-  * [数据结构](./docs/c-2数据结构.md)
+  * [数据结构](./docs/Knowledge/数据结构/c-2数据结构.md)
   * [算法](./docs/c-3算法.md)
   * [操作系统](./docs/Knowledge/操作系统/c-4操作系统.md)
 
