@@ -55,7 +55,7 @@
   <!--全文搜索,直接用官方提供的无法生效-->
   <script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
 
-  <!-- 添加页脚 -->
+  <!-- 新增的添加页脚 -->
   <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/docsify-footer-enh.min.js"></script>
 
   
@@ -67,9 +67,9 @@
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 
 
- <!-- mouse click -->
+ <!-- 新增的mouse click -->
  <script src="https://cdn.jsdelivr.net/gh/forthespada/forthespada.github.io@master/plugin/click_heart.js"></script>
- <!-- 添加网站运行时间统计 -->
+ <!-- 新增的添加网站运行时间统计 -->
  <script language=javascript>
    function siteTime() {
       window.setTimeout("siteTime()", 1000);
@@ -93,7 +93,7 @@
       minutes - 0-59之间的整数，做为date对象的分钟数
       seconds - 0-59之间的整数，做为date对象的秒数
       microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-      var t1 = Date.UTC(2021, 05, 20, 00, 00, 00); //北京时间2021-05-20
+      var t1 = Date.UTC(2021, 11, 11, 00, 00, 00); //北京时间2021-11-11
       var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
       var diff = t2 - t1;
       var diffYears = Math.floor(diff / years);
@@ -101,7 +101,7 @@
       var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
       var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes);
       var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours - diffMinutes * minutes) / seconds);
-      document.getElementById("sitetime").innerHTML = " 阿秀的小破站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
+      document.getElementById("sitetime").innerHTML = " 玉鹏的小破站已安全运行 " + diffYears + " 年 " + diffDays + " 天 " + diffHours + " 小时 " + diffMinutes + " 分 " + diffSeconds + " 秒 ";
    }
    siteTime();
 </script>
