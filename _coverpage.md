@@ -3,8 +3,8 @@
 </p>
 <h1 align="center">Knowledge of notes</h1>
 
-[![star]()]()
-[![fork]()]()
+[![star](https://img.shields.io/badge/%E6%8E%A8%E8%8D%90%E6%8C%87%E6%95%B0-%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90%E2%AD%90-blue.svg)]()
+[![fork](https://img.shields.io/badge/version-v4.0-blue.svg)]()
 
 
 [常用资源](https://blog.csdn.net/weixin_46269257?spm=1000.2115.3001.5343)
