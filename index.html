@@ -41,7 +41,15 @@
   </div>
   
   <script>
+    function showAdverseMent() {
+      advertisementShow.style.display = "none";
+      advertisementNone.style.display = "block";
 
+    }
+    function displayAdverseMent() {
+      advertisementNone.style.display = "none";
+      advertisementShow.style.display = "block";
+    }
     window.$docsify = {
       name: '📔 玉鹏的学习笔记',
       repo: 'https://github.com/GpsLypy/gpslypy.github.io',
@@ -50,6 +58,7 @@
       homepage: 'README.md',
       coverpage: true,
       loadSidebar: true,
+      loadNavbar: true, // 设置导航栏
       auto2top: true,//切换页面后是否自动跳转到页面顶部
       
       loadNavbar: true, // 设置导航栏
@@ -76,16 +85,6 @@
         style: 'text-align: left;',
       }//添加页脚
       
-    }
-
-    function showAdverseMent() {
-      advertisementShow.style.display = "none";
-      advertisementNone.style.display = "block";
-
-    }
-    function displayAdverseMent() {
-      advertisementNone.style.display = "none";
-      advertisementShow.style.display = "block";
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
