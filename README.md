@@ -8,7 +8,12 @@
 [CSDN博客地址](https://blog.csdn.net/weixin_46269257?spm=1001.2014.3001.5343)
 
 近期会重开微信公众号,并且每周都会在公众号更新一些自己总结的资料。
-<img src="docs/picture/微信图片_20211122132340.jpg" alt="想" />
+</div>
+    <div style="float: left;width: 80%">
+    <p style="font-size: 12px;color:red">欢迎加入计算机百人求职(吹水闲聊)交流群，麻烦备注"求职”，谢谢~</p>
+    <img src="docs/picture/微信图片_20211122132340.jpg" alt="想" />
+</div>
+
 [cplusplus](http://www.cplusplus.com/)
 
 ![](https://imgkr.cn-bj.ufileos.com/66f3a716-b3cc-469b-9b61-8be00244305c.png)
