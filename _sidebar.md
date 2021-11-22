@@ -1,5 +1,5 @@
 
-* [返回首页](http://routeguidance.cn/#/)
+* [返回首页](./_sidebar.md)
 
 * [备战面试](./docs/a-1备战面试.md)
   
