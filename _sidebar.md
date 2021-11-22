@@ -1,8 +1,8 @@
 
 * [首页导航](./HOME_PAGE.md)
 
-* [备战面试](./docs/a-1备战面试.md)
-  
+* [备战面试](./docs/Knowledge/面试经验/a-1备战面试.md)
+
 * 📝C/C++
   
   * [C++基础](./docs/Knowledge/C++/b-1C++基础.md)
