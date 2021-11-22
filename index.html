@@ -72,6 +72,21 @@
   
   <script async src="https://cdn.jsdelivr.net/gh/forthespada/forthespada.github.io@master/plugin/js/busuanzi.pure.mini.js"></script>
 
+  <!-- 回到顶部功能 -->
+  <script src="https://cdn.jsdelivr.net/gh/forthespada/forthespada.github.io@master/plugin/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/forthespada/forthespada.github.io@master/plugin/jquery.goup.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $.goup({
+        trigger: 700,
+        bottomOffset: 20,
+        locationOffset: 8,
+        title: '回到顶部',
+        titleAsText: true
+      });
+    });
+  </script>
+  
  <!-- 新增的mouse click -->
  <script src="https://cdn.jsdelivr.net/gh/forthespada/forthespada.github.io@master/plugin/click_heart.js"></script>
  <!-- 新增的添加网站运行时间统计 -->
