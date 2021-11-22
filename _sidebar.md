@@ -3,14 +3,14 @@
 
 * [备战面试](./docs/a-1备战面试.md)
   
-* 🍵C/C++
+* 📝C/C++
   
   * [C++基础](./docs/Knowledge/C++/b-1C++基础.md)
   * [Java集合](./docs/Knowledge/C++/b-2Java集合.md)
   * [Java多线程](./docs/Knowledge/C++/b-3Java多线程.md)
   * [jvm](./docs/Knowledge/C++/b-4jvm.md)
 
-* 计算机基础
+* 📝计算机基础
 
   * [计算机网络](./docs/Knowledge/计算机网络/c-1计算机网络.md)
   * [数据结构](./docs/Knowledge/数据结构/c-2数据结构.md)
