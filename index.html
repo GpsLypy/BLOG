@@ -42,8 +42,6 @@
   
   <script>
 
-  
-
     window.$docsify = {
       name: '📔 玉鹏的学习笔记',
       repo: 'https://github.com/GpsLypy/gpslypy.github.io',
@@ -78,6 +76,16 @@
         style: 'text-align: left;',
       }//添加页脚
       
+    }
+
+    function showAdverseMent() {
+      advertisementShow.style.display = "none";
+      advertisementNone.style.display = "block";
+
+    }
+    function displayAdverseMent() {
+      advertisementNone.style.display = "none";
+      advertisementShow.style.display = "block";
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
