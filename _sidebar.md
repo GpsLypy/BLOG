@@ -1,7 +1,7 @@
 
-* [首页导航](./HOME_PAGE.md)
+* [🚀首页导航](./HOME_PAGE.md)
 
-* [备战面试](./docs/Knowledge/面试经验/a-1备战面试.md)
+* [🔨备战面试](./docs/Knowledge/面试经验/a-1备战面试.md)
 
 * 📝C/C++
   
@@ -17,7 +17,7 @@
   * [算法](./docs/Knowledge/算法/c-3算法.md)
   * [操作系统](./docs/Knowledge/操作系统/c-4操作系统.md)
 
-* 🐝 [联系方式](./docs/Knowledge/面试经验/a-1备战面试.md)
+* [🐝联系方式](./docs/Knowledge/面试经验/a-1备战面试.md)
 
 
 
