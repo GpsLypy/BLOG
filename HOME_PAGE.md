@@ -8,7 +8,7 @@
   * [C++基础](./docs/Knowledge/C++/b-1C++基础.md)
   * [C++11新标准](./docs/Knowledge/C++/b-2C++11新标准.md)
   * [STL模板库](./docs/Knowledge/C++/b-3STL模板库.md)
-  * [jvm](./docs/Knowledge/C++/b-4jvm.md)
+  * [C++内存管理](./docs/Knowledge/C++/b-4C++内存管理.md)
 
 * 📝 计算机基础
 
