@@ -7,6 +7,8 @@
 [![fork](https://img.shields.io/badge/version-v4.0-blue.svg)]()
 [![star](https://img.shields.io/github/stars/forthespada/InterviewGuide)]()
 
+>我爱你，心就特别软，平淡也温暖，无语也浪漫</font>。
+
 [常用资源](https://blog.csdn.net/weixin_46269257?spm=1000.2115.3001.5343)
 [GitHub](https://github.com/GpsLypy/gpslypy.github.io.git)
 [开始阅读](#Knowledge-of-notes)
