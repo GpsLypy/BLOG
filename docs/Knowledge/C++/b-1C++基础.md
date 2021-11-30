@@ -3644,7 +3644,7 @@ char* strncpy(char* strDest, const char* strSrc, int pos)
 
 假设仅有2台服务器：nodeA和nodeC，nodeA映射了1条数据，nodeC映射了3条，这样数据分布是不平衡的。引入虚拟结点，假设结点复制个数为2，则nodeA变成：nodeA1和nodeA2，nodeC变成：nodeC1和nodeC2，映射情况变成如下：
 
-![](https://cdn.jsdelivr.net/gh/Gpslypy/mediaImage01@v1.0/img202111/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20211130170826.png)
+![](https://cdn.jsdelivr.net/gh/forthespada/mediaImage1@1.6.4.2/202102/1566573927297.png)
 
 这样数据分布就均衡多了，平衡性有了很大的提高
 
