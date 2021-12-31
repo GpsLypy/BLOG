@@ -1,5 +1,6 @@
 ![](https://img-blog.csdnimg.cn/img_convert/cb3ad09f3c639711e8579eb11d7cc660.png)
 
+
 ### 2.1 HTTP 是什么？描述⼀下。
 HTTP 是超⽂本传输协议，也就是HyperText Transfer Protocol。
 ### 2.2 能否详细解释「超⽂本传输协议」？
