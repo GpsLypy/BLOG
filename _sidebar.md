@@ -4,15 +4,9 @@
 * [🔨备战面试](./docs/Knowledge/面试经验/a-1备战面试.md)
 
 
-* [📝C/C++](./docs/Knowledge/C++/_sidebar.md)
+* [📝C/C++](./docs/Knowledge/C++/README.md)
 
-* 📝C/C++
-  
-  * [C++基础知识](./docs/Knowledge/C++/b-1C++基础.md)
-  * [C++11新标准](./docs/Knowledge/C++/b-2C++11新标准.md)
-  * [STL模板库](./docs/Knowledge/C++/b-3STL模板库.md)
-  * [C++内存管理](./docs/Knowledge/C++/b-4C++内存管理.md)
-  * [其他高频问题](./docs/Knowledge/C++/b-5高频问题.md)
+
 * 📝计算机基础
 
   * [计算机网络](./docs/Knowledge/计算机网络/c-1计算机网络.md)
