@@ -4,7 +4,7 @@
 * [🔨备战面试](./docs/Knowledge/面试经验/a-1备战面试.md)
 
 
-* [C++基础知识](./docs/Knowledge/C++/b-1C++基础.md)
+* [C/C++](./docs/Knowledge/C++/_sidebar.md)
 
 * 📝C/C++
   
