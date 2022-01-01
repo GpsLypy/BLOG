@@ -1,5 +1,5 @@
 
-* [🚀首页导航](./HOME_PAGE.md)
+* [🚀首页导航](./README.md)
 
 * [🔨备战面试](./docs/Knowledge/面试经验/a-1备战面试.md)
 
