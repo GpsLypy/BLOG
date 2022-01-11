@@ -536,8 +536,19 @@ aof-use-rdb-preamble yes
 
 加载完 RDB 的内容后，才会加载后半部分的 AOF 内容，这里的内容是 Redis 后台子进程重写 AOF 期间，主线程处理的操作命令，可以使得数据更少的丢失。
 
-tips：当redis内存数据高达几十G，上百G的时候，如果用bgsave进行rdb快照的话，在创建子进程的时会导致停顿，这时候建议用sava。虽然save会一直阻塞redis直到快照生成完毕，但是因它不用创建子进程，所以不会出现停顿。
-，并且因为没有子进程竞争，所以save创建快照的速度会比bgsave要快。
+tips：
+
+- 1、当redis内存数据高达几十G，上百G的时候，如果用bgsave进行rdb快照的话，在创建子进程的时会导致停顿，这时候建议用sava。虽然save会一直阻塞redis直到快照生成完毕，但是因它不用创建子进程，所以不会出现停顿。
+
+- 并且因为没有子进程竞争，所以save创建快照的速度会比bgsave要快。
+
+[快问快答](https://mp.weixin.qq.com/s?__biz=MzUxODAzNDg4NQ==&mid=2247495027&idx=1&sn=217af306b07ed0f2a064773541d46721&chksm=f98da9d9cefa20cf7ce2ef0ebf60cf378b79958a2e34559c9da7922be4a946a800ff815f950f&cur_album_id=1790401816640225283&scene=189#wechat_redirect)
+
+
+
+
+
+
 
 
 
