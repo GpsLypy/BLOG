@@ -16,7 +16,7 @@
 * [🍖操作系统](./docs/Knowledge/操作系统/README.md)
 
 
-* [🐝Mysql](//docs/Knowledge/Mysql/c-5mysql.md)
+* [🐝Mysql](./docs/Knowledge/Mysql/c-5mysql.md)
 
 * [🐼Redis](./docs/Knowledge/Redis/README.md)
 
