@@ -18,7 +18,7 @@
 
 * [🐝Mysql](./docs/Knowledge/Mysql/c-5mysql.md)
 
-* [🐼Redis](./docs/Knowledge/Redis/README.md)
+* [🐼Redis](./docs/Knowledge/Redis/c-6redis.md)
 
 
 * [🎅数据结构](./docs/Knowledge/数据结构/README.md)
