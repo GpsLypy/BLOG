@@ -1977,3 +1977,5 @@ select * from s where name like "%xxx%"
 
 再说一个相似，**我们都知道联合索引要遵循最左匹配才能走索引，但是如果数据库表中的字段都是索引的话，即使查询过程中，没有遵循最左匹配原则，也是走索引扫描的**，而且 type 也是为 index，比如下图：
 ![](https://cdn.jsdelivr.net/gh/Gpslypy/mediaImage01@master/img202111/665.webp)
+
+
