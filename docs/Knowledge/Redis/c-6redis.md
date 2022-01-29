@@ -43,10 +43,40 @@ OK
 
 - 第三条命令：stu 是一个列表键，因为键的值是一个包含两个元素的列表对象；
 
+这些键值对是如何保存在 Redis 中的呢？
 
+Redis 是使用了一个 **「哈希表」保存所有键值对**，哈希表的最大好处就是让我们可以用 O(1) 的时间复杂度来快速查找到键值对。哈希表其实就是一个数组，数组中的元素叫做哈希桶。
 
+Redis 的哈希桶是怎么保存键值对数据的呢？
 
+哈希桶存放的是指向键值对数据的指针（dictEntry*），这样通过指针就能找到键值对数据，然后因为键值对的值可以保存字符串对象和集合数据类型的对象，所以键值对的数据结构中并不是直接保存值本身，而是保存了 void * key 和 void * value 指针，分别指向了实际的键对象和值对象，这样一来，即使值是集合数据，也可以通过 void * value 指针找到。
 
+我这里画了一张 Redis 保存键值对所涉及到的数据结构。
+
+![](https://cdn.jsdelivr.net/gh/Gpslypy/mediaImage01@master/img202111/668.webp)
+
+这些数据结构的内部细节，我先不展开讲，后面在讲哈希表数据结构的时候，在详细的说说，因为用到的数据结构是一样的。这里先大概说下图中涉及到的数据结构的名字和用途：
+
+redisDb 结构，表示 Redis 数据库的结构，结构体里存放了指向了 dict 结构的指针；
+
+dict 结构，结构体里存放了 2 个哈希表，正常情况下都是用「哈希表1」，「哈希表2」只有在 rehash 的时候才用，具体什么是 rehash，我在本文的哈希表数据结构会讲；
+
+ditctht 结构，表示哈希表的结构，结构里存放了哈希表数组，数组中的每个元素都是指向一个哈希表节点结构（dictEntry）的指针；
+
+dictEntry 结构，表示哈希表节点的结构，结构里存放了 void * key 和 void * value 指针， *key 指向的是 String 对象，而 *value 则可以指向 String 对象，也可以指向集合类型的对象，比如 List 对象、Hash 对象、Set 对象和 Zset 对象。
+
+特别说明下，void * key 和 void * value 指针指向的是 Redis 对象，Redis 中的每个对象都由 redisObject 结构表示，如下图：
+![](https://cdn.jsdelivr.net/gh/Gpslypy/mediaImage01@master/img202111/669.webp)
+对象结构里包含的成员变量：
+
+type，标识该对象是什么类型的对象（String 对象、 List 对象、Hash 对象、Set 对象和 Zset 对象）；
+
+encoding，标识该对象使用了哪种底层的数据结构；
+
+ptr，指向底层数据结构的指针。
+
+我画了一张 Redis 键值对数据库的全景图，你就能清晰知道 Redis 对象和数据结构的关系了：
+![](https://cdn.jsdelivr.net/gh/Gpslypy/mediaImage01@master/img202111/670.webp)
 
 
 ### 2、再也不怕，缓存雪崩、击穿、穿透！
